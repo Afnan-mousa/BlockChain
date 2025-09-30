@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.security.MessageDigest;
 
-// 1️⃣ تعريف الكتلة (Block)
+// تعريف الكتلة (Block)
 class Block {
     public int index;
     public long timestamp;
@@ -49,7 +49,7 @@ class Block {
     }
 }
 
-// 2️⃣ تعريف العقدة (Node) في النظام اللامركزي
+// تعريف العقدة (Node) في النظام اللامركزي
 class Node {
     public ArrayList<Block> blockchain;
     public int difficulty = 4;
@@ -103,7 +103,7 @@ class Node {
     }
 }
 
-// 3️⃣ النظام اللامركزي (Decentralized Blockchain)
+// النظام اللامركزي (Decentralized Blockchain)
 class DecentralizedBlockchain {
     public ArrayList<Node> nodes;
 
@@ -132,7 +132,7 @@ class DecentralizedBlockchain {
     }
 }
 
-// 4️⃣ اختبار النظام اللامركزي
+// اختبار النظام اللامركزي
 public class Main {
     public static void main(String[] args) {
         DecentralizedBlockchain network = new DecentralizedBlockchain();
